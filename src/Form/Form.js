@@ -16,11 +16,19 @@ class Form extends Component{
         }
     }
 
-    componentWillReceiveProps({productToEdit}){
-        this.setState({
-          ...productToEdit
-        })
-      }
+    // componentWillReceiveProps({productToEdit}){
+    //     this.setState({
+    //       ...productToEdit
+    //     })
+    //   }
+    
+    componentDidUpdate({productToEdit}){
+        if(productToEdit !== this.props.productToEdit){
+            this.setState({
+                ...this.props.productToEdit
+            })
+        }
+    }
     
     handleChange = (e) => {
         const {name, value} = e.target;
