@@ -1,0 +1,39 @@
+table{
+    width: 50%;
+}
+
+th{
+    background-color: #e8e8ed;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+td{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.center{
+    text-align: center;
+}
+
+.label div:nth-child(2) {
+    display: inline-block;
+  }
+
+.label div:nth-child(3) {
+    font-size: 16pt;
+    font-weight: 700;
+  }
+
+.btnEdit{
+    border: 1px solid transparent;
+    padding: 4px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #5bc0de;
+}
