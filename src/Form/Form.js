@@ -68,9 +68,11 @@ class Form extends Component{
                                 <option value=""> 
                                     Select an Option 
                                 </option> 
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
+                                <option value="Electronics">Electronics</option>
+                                <option value="Appliances">Appliances</option>
+                                <option value="Groceries">Groceries</option>
+                                <option value="Sports">Sports</option>
+                                <option value="Miscellaneous">Miscellaneous</option>
                             </select>
                         </div>
                     </div>

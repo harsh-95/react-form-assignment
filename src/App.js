@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   handleEditProduct = (product) => {
-    console.log('aa');
+
     const index = this.state.products.findIndex((ob) => 
                         ob.productName === this.state.productToEdit.productName
                       )
@@ -40,6 +40,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
+          <h2>React Assignment</h2>
           <Form 
             addNewProduct={this.addNewProduct} 
             productToEdit={this.state.productToEdit}

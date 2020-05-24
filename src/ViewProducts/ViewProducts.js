@@ -2,7 +2,7 @@ import React from 'react';
 import './ViewProducts.css';
 
 const ViewProducts = ({products, getEditProduct}) => {
-    console.log('dd');console.log(products);
+
     const showProductsTable = (
         <table cellSpacing="5px">
             <thead>
@@ -27,7 +27,7 @@ const ViewProducts = ({products, getEditProduct}) => {
                                     <span>{description}</span>
                                 </td>
                                 <td>
-                                    <span>{price}</span>
+                                    <span>₹ {price}</span>
                                 </td>
                                 <td>
                                     <button className="btnEdit" onClick={() => getEditProduct(i)}>Edit</button>
