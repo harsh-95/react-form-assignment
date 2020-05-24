@@ -18,7 +18,7 @@ const ViewProducts = ({products, getEditProduct}) => {
                 {products.map(({productName, category, description, price},i) => 
                             <tr key={i}>
                                 <td>
-                                    {productName}
+                                    <span>{productName}</span>
                                 </td>
                                 <td>
                                     <span>{category}</span>
